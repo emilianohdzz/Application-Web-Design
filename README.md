@@ -26,11 +26,29 @@ here are some common Markdown options with examples:
 ## H2  
 ### H3  
 #### H4
-
-
+```
+## 🖥️ Git Commands Reference
 ### Check the status of a local repository
 ```bash
 git status
+```
+###Add files (to staging area)
+
+git add README.md       # add a specific file
+git add .               # add all files
+
+
+### 📝 Commit with a descriptive message
+git commit -m "Message describing the changes"
+
+
+###🌿 Branch management
+
+git branch              # list branches
+git branch new-feature  # create new branch
+git checkout main       # switch to main branch
+git checkout -b dev     # create and switch to new branch
+git branch -d dev       # delete a branch
 
 ###Roll back repository to a specific commit
 
